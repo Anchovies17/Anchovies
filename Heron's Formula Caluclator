@@ -1,0 +1,23 @@
+import UIKit
+
+var str = "Hello, playground"
+
+var sideOne = 5 //insert side one value here
+var sideTwo = 6 //insert side two value here
+var sideThree = 9 //insert side three value here
+
+var sideSum = sideOne + sideTwo + sideThree
+var s = sideSum/2
+
+var x = s
+var y = [sideOne, sideTwo, sideThree]
+
+for i in y {
+    x *= s - i
+}
+
+var answer = sqrt(Double(x))
+
+print(answer)
+
+
